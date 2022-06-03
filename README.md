@@ -7,8 +7,9 @@
 - O pyodide é uma distribuição Python para navegadores e Node.js baseado em WebAssembly. </br>
 
 [pyodide](https://pyodide.org/en/stable/)
+[pyodide packages](https://github.com/pyodide/pyodide/tree/main/packages)
 
-- O WebAssembly é um `bytecode (formato de baixo nível mais próximo da linguagem de máquina)` que tem como objetivo desenvolver tecnologias web com melhor performance e disponibilizar recursos nativos na web, isso significa que com o avanço desta tecnologia será possível utilizar programas como Photoshop, autoCAD e até mesmo o ArcGIS Pro diretamente no navegador e não será uma versão web, estaremos executando a versão nativa que atualmente precisamos instalar em nossos computadores, assim não vamos mais precisar instalar estes programas em nossos computadores somente vamos precisar instalar um navegador web, isto é interessante pois uma vez que isso se tornar possível os programas serão compatíveis com todos os sistemas operacionais, pois tudo vai funcionar dentro do navegador.  </br>
+- O WebAssembly é um `bytecode (formato de baixo nível mais próximo da linguagem de máquina)` que tem como objetivo desenvolver tecnologias web com melhor performance e disponibilizar recursos nativos na web, isso significa que com o avanço desta tecnologia será possível utilizar programas como Photoshop, autoCAD e até mesmo o ArcGIS Pro diretamente no navegador e não será uma versão web, estaremos executando a versão nativa que atualmente precisamos instalar em nossos computadores, assim não vamos mais precisar instalar estes programas em nossos computadores somente vamos precisar instalar um navegador web, isto é interessante pois uma vez que isso se tornar possível os programas serão compatíveis com todos os sistemas operacionais, pois tudo vai funcionar dentro do navegador. </br>
 
 - O Bytecode é um código intermediário resultado da compilação de uma linguagem que será interpretado por uma máquina virtual para então ser transformado em um código de máquina e em seguida ser interpretado por nossos computadores, assim com o WebAssembly este código intermediário é interpretado pela máquina virtual implementada nos navegadores, permitindo assim que qualquer liguagem que gere este código intermediário possa ser utilizada na Web. </br>
 
@@ -148,8 +149,8 @@ Resumindo o Pyscript: </br>
 	<!-- ... -->
   <link rel="stylesheet" href="./style.css">
   <py-env>
-	- paths:
-		- ./utils.py
+		- paths:
+			- ./utils.py
   </py-env>
 </head>
 <body>
