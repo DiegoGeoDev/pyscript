@@ -1,0 +1,21 @@
+.toggle-py {
+  text-shadow: 0 0 15px;
+  animation: color-change-py 1s infinite;
+}
+
+@keyframes color-change-py {
+  0% { color: #2978a9; }
+  50% { color: #eec855; }
+  100% { color: #2978a9; }
+}
+
+.toggle-js {
+  text-shadow: 0 0 15px;
+  animation: color-change-js 1s infinite;
+}
+
+@keyframes color-change-js {
+  0% { color: #ead41c; }
+  50% { color: #000000; }
+  100% { color: #ead41c; }
+}
